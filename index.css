@@ -761,7 +761,7 @@ footer{
     nav {
         display: flex;           /* use flex for easy wrapping */
         flex-direction: row;  /* stack items vertically if needed */
-        gap: 0px;
+        gap: 2px;
         width: 98%;             /* full width */
         padding: 10px;
         box-sizing: border-box;  /* include padding in width */
@@ -783,9 +783,9 @@ footer{
     }
     .title {
         margin-left: 0px;
-        font-size: 0.3rem;
+        font-size: 0.4rem;
         padding: 0;
-        text-align: center;
+        justify-content: center; /* center horizontally */
     }
     .down{
         margin-top: -80px;
