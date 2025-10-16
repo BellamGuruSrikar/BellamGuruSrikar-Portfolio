@@ -761,7 +761,7 @@ footer{
     nav {
         display: flex;           /* use flex for easy wrapping */
         flex-direction: row;  /* stack items vertically if needed */
-        gap: 5px;
+        gap: 4px;
         width: 98%;             /* full width */
         padding: 10px;
         box-sizing: border-box;  /* include padding in width */
