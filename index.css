@@ -783,13 +783,12 @@ footer{
     }
     .title {
         margin-left: 0px;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         padding: 0;
         text-align: center;
     }
     .down{
-        text-align: center;
-        margin-top: -90px;
+        margin-top: -80px;
     }
 }
 @media (max-width: 768px) {
