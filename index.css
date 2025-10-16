@@ -761,7 +761,7 @@ footer{
     nav {
         display: flex;           /* use flex for easy wrapping */
         flex-direction: row;  /* stack items vertically if needed */
-        gap: 1px;
+        gap: 2px;
         width: 98%;             /* full width */
         padding: 10px;
         box-sizing: border-box;  /* include padding in width */
@@ -777,16 +777,16 @@ footer{
         padding: 8px 0;
     }
     .nav-items a {
-        padding: 10px;
+        padding: 10px 5px;
         font-size: 0.5rem;
         white-space: nowrap;     /* prevents text from breaking */
     }
     .title {
         margin-left: 0px;
-        font-size: 0.3rem;
+        font-size: 0.5rem;
         padding: 0;
+        padding-top: 6px;
         text-align: center;
-        justify-content: center; /* center horizontally */
     }
     .down{
         margin-top: -80px;
@@ -800,7 +800,7 @@ footer{
         height: auto;
         padding: 80px 20px;
     }
-    .title1{margin-top: 25px;}
+    .title1{margin-top: -15px;}
     .hl1 {padding: 0 20px;}
     .home .name {font-size: 2rem;}
     /* Mission paragraph */
