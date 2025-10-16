@@ -761,9 +761,9 @@ footer{
     nav {
         display: flex;           /* use flex for easy wrapping */
         flex-direction: row;  /* stack items vertically if needed */
-        gap: 6px;
+        gap: 3px;
         width: 98%;             /* full width */
-        padding: 10px 15px;
+        padding: 10px;
         box-sizing: border-box;  /* include padding in width */
         /* text-align: center; */
     }
@@ -778,14 +778,18 @@ footer{
     }
     .nav-items a {
         padding: 10px;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         white-space: nowrap;     /* prevents text from breaking */
     }
     .title {
         margin-left: 0px;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         padding: 0;
         text-align: center;
+    }
+    .down{
+        text-align: center;
+        margin-top: -100px;
     }
 }
 @media (max-width: 768px) {
