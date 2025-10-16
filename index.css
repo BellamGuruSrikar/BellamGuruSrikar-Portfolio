@@ -761,7 +761,7 @@ footer{
     nav {
         display: flex;           /* use flex for easy wrapping */
         flex-direction: row;  /* stack items vertically if needed */
-        gap: 2px;
+        gap: 3px;
         width: 98%;             /* full width */
         padding: 10px;
         box-sizing: border-box;  /* include padding in width */
@@ -777,7 +777,7 @@ footer{
         padding: 8px 0;
     }
     .nav-items a {
-        padding: 10px 5px;
+        padding: 10px 6px;
         font-size: 0.5rem;
         white-space: nowrap;     /* prevents text from breaking */
     }
@@ -789,7 +789,7 @@ footer{
         text-align: center;
     }
     .down{
-        margin-top: -80px;
+        margin-top: -70px;
     }
 }
 @media (max-width: 768px) {
@@ -882,6 +882,10 @@ footer{
     /* --- Timeline --- */
     .timeline {margin: 0 20px; }
     .container{padding: 0px;}
+    .container.right::before, 
+    .container.left::before{left: 0px;}
+    .timeline::after {left: 10px;}
+    .container.left {text-align:left;}
     /* --- Contact --- */
     .contact-flex {
         grid-template-columns: 1fr;
