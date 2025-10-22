@@ -806,7 +806,6 @@ footer{
     /* Mission paragraph */
     .mission {
         font-size: 0.95rem;
-        text-align: center;
         max-width: 90%;
         text-align:justify;
     }
@@ -846,7 +845,7 @@ footer{
     /* --- About Section --- */
     .about {
         flex-direction: column;
-        text-align: center;
+        text-align: justify;
         padding: 0 20px;
     }
     .about-info {
@@ -904,7 +903,7 @@ footer{
     .home .name {font-size: 1.6rem;}
     .home {
         grid-template-columns: 1fr;
-        text-align: center;
+        /* text-align: center; */
         padding: 60px 15px;
     }
     .hl1 {padding: 0 10px;}
