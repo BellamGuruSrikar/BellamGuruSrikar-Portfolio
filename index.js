@@ -1,6 +1,6 @@
  // Prevent bouncing effect on mobile when swiping fast
 // document.addEventListener('touchmove', function(e){ e.preventDefault(); }, { passive:false });
-const roles = ["Full-Stack Developer", "AI Researcher", "Tech Innovator"];
+const roles = ["Full-Stack Developer","React Developer","Django Developer","Python Developer","AI Researcher", "Tech Innovator","Open to Work"];
 let i = 0;
 let j = -1;
 let currentRole = "";
