@@ -359,13 +359,18 @@ nav{
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 383px);
-    gap: 50px;
+    grid-template-columns: repeat(3, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1400px;
     padding-top: 20px;
-    margin: 0px 120px 60px 120px;
+    margin: 0px auto 60px;
     justify-content: center;
 }
 .project_card{  
+    width: 100%;
+    max-width: 380px;
+    justify-self: center;
+
     border-radius: 10px;
     border: 0.8px solid rgba(153, 255, 255, 0.24);
     padding: 24px;
@@ -714,6 +719,7 @@ nav{
     }
     .social-icons {justify-content: center;}
 }
+
 footer{
     padding: 48px 24px;
     border-top: 1px solid #242e42;
@@ -758,6 +764,11 @@ footer{
 
 
 /* ----------📱 MOBILE RESPONSIVENESS FIXES ---------- */
+@media (max-width:1200px){
+    .projects{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 @media (max-width: 1024px) {
     nav {
         display: flex;           /* use flex for easy wrapping */
